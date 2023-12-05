@@ -1,18 +1,16 @@
-# Flutter - Authenticated CRUD App - TesloShop
+# Flutter - Authenticated  App - Generic
+Este repositorio esta creado en base a
+clean arquitecture por lo que usa
+los patrones repository y datasource.
+creando la capa de dominio para las reglas de negocio y
+la capa infraestructura donde se realiza la implementacion.
 
-Este es un proyecto para trabajar con:
-
-* Cámara
-* Tokens de acceso
-* CRUD (Create Read Update Delete) Rest API Endpoints
-* Riverpod
-* GoRouter
-
-
-## El backend lo pueden obtener de aquí
-
-[Teslo Backend - Nest RestServer](https://hub.docker.com/repository/docker/klerith/flutter-backend-teslo-shop/general)
-
-# Importante
-Recuerden leer y seguir la guía para montar el backend localmente.
+- En config se ha usado el .dotenv y goRouter (paquetes de flutter) tambien se ha configurado el tema de la app
+- En features estan todas las caracteristicas de la app
+- auth aqui esta la parte de auth (autenticacion)
+- En products toda la   presentacion y el uso de los productos o articulos
+- y en shared todo los que coparte la app en sus distintos apartados
+- presentation esta  todo lo relacionado a las vistas
+- providers usa Riverpod como gestor de estado
+- widgets aqui estan alguna coleccion de widgets deacuerdo a su contexto
 

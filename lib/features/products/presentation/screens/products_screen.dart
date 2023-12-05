@@ -12,7 +12,7 @@ class ProductsScreen extends StatelessWidget {
     return Scaffold(
       drawer: SideMenu( scaffoldKey: scaffoldKey ),
       appBar: AppBar(
-        title: const Text('Products'),
+        title: const Text('Private Test'),
         actions: [
           IconButton(
             onPressed: (){}, 
@@ -22,7 +22,7 @@ class ProductsScreen extends StatelessWidget {
       ),
       body: const _ProductsView(),
       floatingActionButton: FloatingActionButton.extended(
-        label: const Text('Nuevo producto'),
+        label: const Text('Nuevo '),
         icon: const Icon( Icons.add ),
         onPressed: () {},
       ),
